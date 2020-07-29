@@ -1,7 +1,7 @@
 {
-  "name": "@lode/require",
+  "name": "@lono/require",
   "version": "0.0.1",
-  "description": "@lode/require",
+  "description": "@lono/require",
   "scripts": {
     "build": "babel lib -d dist",
     "start": "npm run build && node dist/index.js",
@@ -27,9 +27,9 @@
   ],
   "repository": {},
   "keywords": [
-    "lode",
-    "lode-require",
-    "@lode/require"
+    "lono",
+    "lono-require",
+    "@lono/require"
   ],
   "engines": {
     "node": ">=8.0.0"
