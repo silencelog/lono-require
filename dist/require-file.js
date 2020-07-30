@@ -1,5 +1,10 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _default;
+
 var _path = _interopRequireDefault(require("path"));
 
 var _fs = _interopRequireDefault(require("fs"));
@@ -8,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const fileMap = {};
 
-module.exports = src => {
+function _default(src) {
   const fileSrc = _path.default.resolve(src);
 
   if (fileMap[fileSrc]) {
@@ -23,4 +28,4 @@ module.exports = src => {
   }
 
   return null;
-};
+}
